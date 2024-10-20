@@ -6,7 +6,10 @@ on:
       name:
         description: 'Enter your name'
         required: true
-        default: 'Alan Amirtharaj'
+        type: choice
+        options:
+          - Alan Amirtharaj
+          - Alan Amirth
       environment:
         description: 'Choose the environment'
         required: true
