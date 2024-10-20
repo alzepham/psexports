@@ -29,7 +29,7 @@ on:
         required: true
 
 jobs:
-  ps with github:
+  run_script:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
